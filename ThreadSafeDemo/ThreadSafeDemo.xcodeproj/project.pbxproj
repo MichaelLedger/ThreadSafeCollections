@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		67A5CA182756F8D20026120F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A5CA172756F8D20026120F /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		67A5CA212756FF3C0026120F /* ThreadSafeMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A5CA202756FF3C0026120F /* ThreadSafeMutableDictionary.m */; };
+		67A5CA25275728FD0026120F /* ThreadSafeMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A5CA24275728FD0026120F /* ThreadSafeMutableDictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,8 @@
 /* Begin PBXFileReference section */
 		67A5CA142756F8D20026120F /* ThreadSafeDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ThreadSafeDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		67A5CA172756F8D20026120F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		67A5CA1F2756FF3C0026120F /* ThreadSafeMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadSafeMutableDictionary.h; sourceTree = "<group>"; };
-		67A5CA202756FF3C0026120F /* ThreadSafeMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadSafeMutableDictionary.m; sourceTree = "<group>"; };
+		67A5CA23275728FD0026120F /* ThreadSafeMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadSafeMutableDictionary.h; sourceTree = "<group>"; };
+		67A5CA24275728FD0026120F /* ThreadSafeMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadSafeMutableDictionary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,19 +60,20 @@
 		67A5CA162756F8D20026120F /* ThreadSafeDemo */ = {
 			isa = PBXGroup;
 			children = (
-				67A5CA1E2756FF3C0026120F /* ThreadSafeMutableDictionary */,
+				67A5CA22275728FD0026120F /* ThreadSafeMutableDictionary */,
 				67A5CA172756F8D20026120F /* main.m */,
 			);
 			path = ThreadSafeDemo;
 			sourceTree = "<group>";
 		};
-		67A5CA1E2756FF3C0026120F /* ThreadSafeMutableDictionary */ = {
+		67A5CA22275728FD0026120F /* ThreadSafeMutableDictionary */ = {
 			isa = PBXGroup;
 			children = (
-				67A5CA1F2756FF3C0026120F /* ThreadSafeMutableDictionary.h */,
-				67A5CA202756FF3C0026120F /* ThreadSafeMutableDictionary.m */,
+				67A5CA23275728FD0026120F /* ThreadSafeMutableDictionary.h */,
+				67A5CA24275728FD0026120F /* ThreadSafeMutableDictionary.m */,
 			);
-			path = ThreadSafeMutableDictionary;
+			name = ThreadSafeMutableDictionary;
+			path = ../../ThreadSafeMutableDictionary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,7 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67A5CA182756F8D20026120F /* main.m in Sources */,
-				67A5CA212756FF3C0026120F /* ThreadSafeMutableDictionary.m in Sources */,
+				67A5CA25275728FD0026120F /* ThreadSafeMutableDictionary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
